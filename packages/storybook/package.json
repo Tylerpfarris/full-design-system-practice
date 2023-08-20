@@ -1,0 +1,16 @@
+{
+  "name": "@full-sd/storybook",
+  "packageManager": "yarn@3.2.1",
+  "private": true,
+  "dependencies": {
+    "@full-sd/foundation": "workspace:^",
+    "@full-sd/react": "workspace:^"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^7.3.1"
+  }
+}

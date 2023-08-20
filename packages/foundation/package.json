@@ -1,0 +1,15 @@
+{
+  "name": "@full-sd/foundation",
+  "packageManager": "yarn@3.6.1",
+  "version": "0.0.0",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build-tokens": "style-dictionary build --config sd.config.js",
+    "build": "yarn build-tokens && tsc"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.8.0",
+    "typescript": "^5.1.6"
+  }
+}
